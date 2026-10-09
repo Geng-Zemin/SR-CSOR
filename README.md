@@ -12,8 +12,6 @@
 
 SR-CSOR 是一种面向光学与合成孔径雷达（SAR）影像局部匹配的方法。该方法利用紧凑的双通道方向结构表征描述局部轴向结构，并结合方向相干性与结构能量对方向响应进行可靠性调制。加权后的两个方向分量被编码为复数结构场，通过联合频域相关估计局部位移，最后利用几何一致性筛选获得可靠匹配点。
 
-本仓库提供 SR-CSOR 的 Windows 可执行程序。当前公开版本仅包含编译后的程序和使用说明，不包含 MATLAB 源代码。
-
 ### 文件说明
 
 ```text
@@ -91,8 +89,6 @@ SR-CSOR 主要用于具有初始位置先验的局部光学–SAR平移匹配。
 ### Overview
 
 SR-CSOR is designed for local matching between optical and synthetic aperture radar (SAR) images. It represents local axial structures using a compact two-channel directional representation and modulates directional responses using local directional coherence and structural energy. The weighted components are encoded into a complex-valued structural field, local displacements are estimated through joint frequency-domain correlation, and unreliable correspondences are removed using geometric-consistency filtering.
-
-This repository provides the compiled Windows application of SR-CSOR. The current public release contains only the executable and documentation; MATLAB source code is not included.
 
 ### Repository Contents
 
